@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('/packages/bootstrap3-todc/bootstrap3-todc/fonts/glyphicons-halflings-regular.eot');
+  src: url('/packages/bootstrap3-todc/bootstrap3-todc/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/packages/bootstrap3-todc/bootstrap3-todc/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/packages/bootstrap3-todc/bootstrap3-todc/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/packages/bootstrap3-todc/bootstrap3-todc/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+

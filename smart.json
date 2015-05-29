@@ -1,0 +1,9 @@
+{
+  "name": "bootstrap3-todc",
+  "description": "bootstrap todc 3.3.4 packaged for meteor",
+  "homepage": "https://github.com/dnosker/meteor-bootstrap3-todc",
+  "author": "Dave Nosker",
+  "version": "3.2.0",
+  "git": "https://github.com/dnosker/meteor-bootstrap3-todc.git",
+  "packages": { }
+}
