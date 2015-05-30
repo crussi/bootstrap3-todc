@@ -1,10 +1,10 @@
 Package.describe({
   name: 'crussi:bootstrap3-todc',
-  version: '0.0.1',
+  version: '1.0.0',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'Bootstrap todc 3.3.4 packaged for meteor',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/crussi/bootstrap3-todc.git',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -12,11 +12,9 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
-  //api.addFiles('bootstrap3-todc.js');
   api.use('jquery');
-
   var path = Npm.require('path');
-  var asset_path = path.join('bootstrap3-todc');
+  var asset_path = path.join('todc');
   api.add_files(path.join(asset_path, 'css', 'todc-bootstrap.css'), 'client');
   // fonts
   api.add_files(path.join(asset_path, 'fonts', 'glyphicons-halflings-regular.eot'), 'client');
