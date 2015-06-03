@@ -13,6 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use('jquery');
+  api.use('nemo64:bootstrap@3.3.4');
   var path = Npm.require('path');
   var asset_path = path.join('todc');
   api.add_files(path.join(asset_path, 'css', 'todc-bootstrap.css'), 'client');
