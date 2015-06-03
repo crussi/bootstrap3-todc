@@ -1,6 +1,6 @@
 Package.describe({
   name: 'crussi:bootstrap3-todc',
-  version: '1.0.1',
+  version: '1.0.2',
   // Brief, one-line summary of the package.
   summary: 'Bootstrap todc 3.3.4 packaged for meteor',
   // URL to the Git repository containing the source code for this package.
@@ -13,7 +13,8 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.2');
   api.use('jquery');
-  api.use('nemo64:bootstrap@3.3.4');
+  //api.use('nemo64:bootstrap@3.3.4');
+  api.use('twbs:bootstrap@3.3.1');
   var path = Npm.require('path');
   var asset_path = path.join('todc');
   api.add_files(path.join(asset_path, 'css', 'todc-bootstrap.css'), 'client');
